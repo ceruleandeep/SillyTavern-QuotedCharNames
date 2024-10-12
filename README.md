@@ -10,16 +10,20 @@ Lets you do this:
 
 <img width="345" alt="qcn" src="https://github.com/user-attachments/assets/91879351-1844-493d-8d4b-db873a3f5e31">
 
+You will get:
+```
+["\n", ":", "\"", "*", "Cato", "P. Vergilius Maro", "C. Valerius Catullus"]
+```
 
 ## Features
 
-*Describe some of the main selling points of your extension.*
+Solves that one problem for that one person.
 
 ## Installation and Usage
 
 ### Installation
 
-*In most cases, this should just be using ST's inbuilt extension installer.* 
+Use ST's inbuilt extension installer.
 
 ### Usage
 
