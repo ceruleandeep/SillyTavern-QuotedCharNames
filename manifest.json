@@ -1,0 +1,12 @@
+{
+  "display_name": "Quoted Char Names",
+  "loading_order": 9,
+  "requires": [],
+  "optional": [],
+  "js": "index.js",
+  "css": "style.css",
+  "author": "ceruleandeep",
+  "version": "1.0.0",
+  "homePage": "https://github.com/ceruleandeep/SillyTavern-QuotedCharNames",
+  "auto_update": true
+}

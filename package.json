@@ -1,0 +1,10 @@
+{
+  "name": "SillyTavern-QuotedCharNames",
+  "version": "1.0.0",
+  "description": "Adds a macro to SillyTavern that expands to a list of all the characters (incl user), double-quoted, comma-separated.\n",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true
+}
