@@ -9,10 +9,10 @@ the model is not permitted to repeat the same word...
 Seraphina, Seraphinah, bo Beraphina, banana-fana fo Feraphina, fee fi mo Meraphina
 ```
 
-... try this. It lets you add all the words in all the active characters' names
+... try this. It adds all the active characters' names
 to the DRY sequence breakers by just writing `{{quotedCharNames}}` in the sequence breaker list.
 
-If you have:
+If you have this group chat:
 
 <img width="359" alt="cato" src="https://github.com/user-attachments/assets/be032614-8cea-4b9a-9d5c-b2806bfc883c">
 
