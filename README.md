@@ -12,13 +12,20 @@ Seraphina, Seraphinah, bo Beraphina, banana-fana fo Feraphina, fee fi mo Meraphi
 ... try this. It lets you add all the words in all the active characters' names
 to the DRY sequence breakers by just writing `{{quotedCharNames}}` in the sequence breaker list.
 
+If you have:
+
+<img width="359" alt="cato" src="https://github.com/user-attachments/assets/be032614-8cea-4b9a-9d5c-b2806bfc883c">
+
+and you write:
+
 ```
 ["\n", ":", "\"", "*", {{quotedCharNames}}]
 ```
 
 <img width="345" alt="qcn" src="https://github.com/user-attachments/assets/91879351-1844-493d-8d4b-db873a3f5e31">
 
-You will get:
+you will get:
+
 ```
 ["\n", ":", "\"", "*", "Cato", "P.", "Vergilius", "Maro", "C.", "Valerius", "Catullus", "Saul", "Goodman", "esq"]
 ``` 
