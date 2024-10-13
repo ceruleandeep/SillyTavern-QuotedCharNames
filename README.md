@@ -1,8 +1,16 @@
 # SillyTavern QuotedCharNames macro
 
-Adds a macro to SillyTavern that expands to a list of all the characters (incl user), double-quoted, comma-separated.
+Adds a macro to SillyTavern that expands to a list of all words in all the character names, including you, double-quoted, comma-separated.
 
-Lets you do this:
+If you're using the DRY sampler in SillyTavern, and you notice that your characters' names are slowly mutating because
+the model is not permitted to repeat the same word... 
+
+```
+Seraphina, Seraphinah, bo Beraphina, banana-fana fo Feraphina, fee fi mo Meraphina
+```
+
+... try this. It lets you add all the words in all the active characters' names
+to the DRY sequence breakers by just writing `{{quotedCharNames}}` in the sequence breaker list.
 
 ```
 ["\n", ":", "\"", "*", {{quotedCharNames}}]
@@ -12,8 +20,8 @@ Lets you do this:
 
 You will get:
 ```
-["\n", ":", "\"", "*", "Cato", "P. Vergilius Maro", "C. Valerius Catullus"]
-```
+["\n", ":", "\"", "*", "Cato", "P.", "Vergilius", "Maro", "C.", "Valerius", "Catullus", "Saul", "Goodman", "esq"]
+``` 
 
 ## Features
 
